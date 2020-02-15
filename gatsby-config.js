@@ -5,7 +5,8 @@ module.exports = {
     description: `前端魔法禁书目录`,
     siteUrl: `https://whitezerd.info/`,
     social: {
-      github: 'Tumao727'
+      github: 'Tumao727',
+      zhihu: 'tumao727',
     },
   },
   plugins: [

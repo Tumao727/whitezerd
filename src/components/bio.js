@@ -25,7 +25,8 @@ const Bio = () => {
         siteMetadata {
           author
           social {
-            github
+            github,
+            zhihu,
           }
         }
       }
@@ -54,10 +55,10 @@ const Bio = () => {
         }}
       />
       <p>
-      这是一位兴趣使然的中二青年 <string>{author}</string>，努力成长为最强英雄的故事。
+      这是一位兴趣使然的中二青年 <string>{author}</string>，努力成长为最强前端炼金术师的故事。
         {` `}
-        <a href={`https://github.com/${social.github}`}>
-          you can see me on github too
+        <a href={`https://zhihu.com/people/${social.zhihu}`}>
+          欢迎来知乎找我玩ww
         </a>
       </p>
     </div>
