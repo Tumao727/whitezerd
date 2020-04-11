@@ -12,8 +12,8 @@ description: "敏捷开发知乎live笔记"
 
 ---
 
-
 ### 敏捷的历史
+
 * agile 12 principles:
 
 ![12 principles](https://miro.medium.com/max/1200/1*5poFKYH4OuV3hJpy1W_Fww.png)
@@ -22,15 +22,17 @@ description: "敏捷开发知乎live笔记"
 
 ![agile values](https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2018/07/Agile-values.png)
 
-
 ### 敏捷的本质
+
 1. 流程是用制度来弥补人的错，就像 code review 一样，来达到最大产能的价值
 2. 敏捷是利于产品开发，而不是产品设计
 
 ### 敏捷的误区
-* 敏捷不是乱改需求 
+
+* 敏捷不是乱改需求
 
 ### 敏捷的流派
+
 1. **scrum**
    * 实行前提：团队必须要有统一的工作协定，即团队得有纪律，且所有人都必须遵守
    * 3个角色：产品负责人（PO，对接需求），scrum master（有点类似项目经理），开发团队（UI，开发，测试）
@@ -63,11 +65,13 @@ description: "敏捷开发知乎live笔记"
    * 如果有看板是10列，有看板是5列，那负责5列的人要来帮助10列的，做完一个就继续新任务，对开发人员来说不是特别友好
 
 ### 多人团队 scrum 怎么运作
+
 * sos（scrum of scrum）
 * scrum 周期最好一致，开始和结束时间最好一致
 * drum beat（一般4个sprint），是比 sprint 更大的一个周期
 * 如果不想被依赖关系所困扰，最好的就是把依赖关系给移除掉？（技术架构层面，例如通用组件等），要能让 scrum 更好独立完成
 
 ### 总结
+
 1. 敏捷必须能让团队持续改进
 2. 需求变动时，PO 要能帮 scrum 挡第一刀

@@ -57,8 +57,8 @@ const Bio = () => {
       <p>
       这是一位兴趣使然的中二青年 <string>{author}</string>，努力成长为最强前端炼金术师的故事。
         {` `}
-        <a href={`https://zhihu.com/people/${social.zhihu}`}>
-          欢迎来知乎找我玩ww
+        <a href={`https://github.com/${social.github}`}>
+          you can find me on github
         </a>
       </p>
     </div>
