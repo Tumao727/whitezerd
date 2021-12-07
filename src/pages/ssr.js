@@ -14,7 +14,7 @@ const BlogIndex = ({ location, serverData }) => {
       <Seo title="All posts" />
       <Bio />
 
-      <img src={serverData.message} alt="server image" />
+      <img src={serverData.message} alt="server message" />
     </Layout>
   )
 }
