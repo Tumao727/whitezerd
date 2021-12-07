@@ -1,5 +1,7 @@
 # whitezerd
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/395ac644-72bf-4715-8ea3-849132591b0c/deploy-status)](https://app.netlify.com/sites/whitezerd/deploys)
+
 personal blog powered by Gatsby. Forked from [Gatsby blog starter](https://github.com/gatsbyjs/gatsby-starter-blog).
 
 ## 名称来源
