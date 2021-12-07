@@ -8,7 +8,6 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
-<<<<<<< HEAD
     "gatsby": "^4.3.0",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-feed": "^4.3.0",
@@ -38,34 +37,6 @@
   },
   "devDependencies": {
     "prettier": "^2.5.1"
-=======
-    "gatsby": "alpha-9689ff",
-    "gatsby-plugin-feed": "alpha-9689ff",
-    "gatsby-plugin-google-analytics": "alpha-9689ff",
-    "gatsby-plugin-image": "alpha-9689ff",
-    "gatsby-plugin-manifest": "alpha-9689ff",
-    "gatsby-plugin-offline": "alpha-9689ff",
-    "gatsby-plugin-react-helmet": "alpha-9689ff",
-    "gatsby-plugin-sharp": "alpha-9689ff",
-    "gatsby-remark-copy-linked-files": "alpha-9689ff",
-    "gatsby-remark-images": "alpha-9689ff",
-    "gatsby-remark-prismjs": "alpha-9689ff",
-    "gatsby-remark-responsive-iframe": "alpha-9689ff",
-    "gatsby-remark-smartypants": "alpha-9689ff",
-    "gatsby-source-filesystem": "alpha-9689ff",
-    "gatsby-transformer-remark": "alpha-9689ff",
-    "gatsby-transformer-sharp": "alpha-9689ff",
-    "isomorphic-fetch": "2.2.1",
-    "prismjs": "^1.24.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0",
-    "typeface-merriweather": "0.0.72",
-    "typeface-montserrat": "0.0.75"
-  },
-  "devDependencies": {
-    "prettier": "2.3.2"
->>>>>>> upstream/main
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
