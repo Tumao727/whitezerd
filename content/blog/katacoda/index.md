@@ -1,9 +1,15 @@
+---
+title: katacoda test
+date: "2021-12-13"
+description: "just test, will be deleted soon"
+---
+
 # Quick Start
 
 ## Create a Python Virtual Environment
 
 ```shell
-  docker --version
+docker --version
 ```
 
 Although not a necessary step, creating a virtual enviroment is always recommended for libraries that tend to install more packages ontop of themselves. Nobody likes a cluttered python install, so we will quickly go over the steps.

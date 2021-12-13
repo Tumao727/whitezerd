@@ -1,14 +1,24 @@
-import * as React from "react"
 import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import KatacodaBtn from "../components/katacoda/button"
+import React, { useEffect } from "react"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
+
+  useEffect(() => {
+    const codes = Array.from(document.querySelectorAll("code"))
+    codes.forEach(code => {
+      if (code.classList.contains("language-shell")) {
+        code.dataset.lang = "shell"
+      }
+    })
+  }, [])
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -25,7 +35,7 @@ const BlogPostTemplate = ({ data, location }) => {
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>
         </header>
-
+        <KatacodaBtn />
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
