@@ -12,6 +12,7 @@ const BlogPostTemplate = ({ data, location }) => {
   const { previous, next } = data
 
   useEffect(() => {
+    console.log("----- enter init blog post template")
     const codes = Array.from(document.querySelectorAll("code"))
     codes.forEach(code => {
       if (code.classList.contains("language-shell")) {

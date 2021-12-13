@@ -9,13 +9,12 @@ const KatacodaBtn = () => {
 
   useEffect(() => {
     // init katacoda
+    console.log("----- start init katacoda")
     init()
   }, [])
 
   return (
     <>
-      {/* <script src="./katacoda-embed.js"></script> */}
-
       <div
         id="katacoda-terminal"
         data-katacoda-ondemand="true"
