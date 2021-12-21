@@ -1,4 +1,4 @@
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -46,16 +46,16 @@ const BlogPostTemplate = ({ data, location }) => {
         >
           <li>
             {previous && (
-              <Link to={previous.fields.slug} rel="prev">
+              <a href={previous.fields.slug} rel="prev">
                 Previous {previous.frontmatter.title}
-              </Link>
+              </a>
             )}
           </li>
           <li>
             {next && (
-              <Link to={next.fields.slug} rel="next">
+              <a href={next.fields.slug} rel="next">
                 {next.frontmatter.title} Next
-              </Link>
+              </a>
             )}
           </li>
         </ul>
