@@ -1,8 +1,9 @@
-import { graphql } from "gatsby"
+import * as React from "react"
+import { Link, graphql } from "gatsby"
+
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import * as React from "react"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
@@ -24,7 +25,6 @@ const BlogPostTemplate = ({ data, location }) => {
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>
         </header>
-
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
@@ -46,16 +46,16 @@ const BlogPostTemplate = ({ data, location }) => {
         >
           <li>
             {previous && (
-              <a href={previous.fields.slug} rel="prev">
-                Previous {previous.frontmatter.title}
-              </a>
+              <Link to={previous.fields.slug} rel="prev">
+                ← {previous.frontmatter.title}
+              </Link>
             )}
           </li>
           <li>
             {next && (
-              <a href={next.fields.slug} rel="next">
-                {next.frontmatter.title} Next
-              </a>
+              <Link to={next.fields.slug} rel="next">
+                {next.frontmatter.title} →
+              </Link>
             )}
           </li>
         </ul>
