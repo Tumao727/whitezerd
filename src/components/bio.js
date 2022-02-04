@@ -47,7 +47,7 @@ const Bio = () => {
           This is all about <strong>{author.name}</strong>, who is trying to
           grow into the strongest frontend alchemist.
           {` `}
-          <a href={`https://zhihu.com/people/${social.github}`}>
+          <a href={`https://github.com/${social.github}`}>
             You can find me on github.
           </a>
         </p>
